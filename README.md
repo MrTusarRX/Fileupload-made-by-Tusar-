@@ -113,7 +113,9 @@ if ($http_code == 200 && $result !== false) {
     exit;  
 } else {  
     echo "❌ Failed to download file.";  
-}  
+}```
+
+
 ## 🧠 Notes  
 - ✅ **Make sure the `uploads/` folder has write permissions.**  
 - ✅ **Files are secured with an API key-based authentication.**  
