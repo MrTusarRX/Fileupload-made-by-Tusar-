@@ -29,7 +29,7 @@ Send a `GET` request to the API endpoint with the following parameters:
 
 ### 📋 Example cURL Request:
 ```bash
-curl -X GET "https://yourdomain.com/download.php?file_id=67dae94b68b58-Nep-Esp-offset-dummper.zip" \
+curl -X GET "https://yourdomain.com/download-handle-api-example.php?file_id=67dae94b68b58-Nep-Esp-offset-dummper.zip" \
 -H "X-API-KEY: xtusar"
 ```
 
