@@ -56,6 +56,24 @@ $downloadUrl = rtrim($baseUrl, '/') . "/api/download.php";
     Hit "Download"
     The file will be downloaded using secure cURL
 
+## 📥 Download API Example (`download.php`)
+
+This is an example of a PHP file (`download.php`) that handles file downloads through an API system with authentication.
+
+### 🔑 Authentication:
+- The request must include a valid `X-API-KEY` header that matches the predefined secret key.
+
+### 🚀 Usage:
+Send a `GET` request to the API endpoint with the following parameters:
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/download-handle-api-example.php?file_id={fileid}` | Download the file with the specified `file_id` |
+
+### 📋 Example cURL Request:
+```bash
+curl -X GET "https://yourdomain.com/download.php?file_id=67dae94b68b58-Nep-Esp-offset-dummper.zip" \
+-H "X-API-KEY: xtusar"
 
 # 💻 Example Code
 
