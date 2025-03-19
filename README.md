@@ -115,6 +115,17 @@ if ($http_code == 200 && $result !== false) {
 ## 🧠 Notes  
 - ✅ **Make sure the `uploads/` folder has write permissions.**  
 - ✅ **Files are secured with an API key-based authentication.**  
-- ✅ **For better security, store the secret key in an `.env` file.**  
+- ✅ **For better security, store the secret key in an `.env` file.**
+
+- ---
+
+## Developed By
+
+👨‍💻 **Developed by [MrTusarRX](https://github.com/MrTusarRX)**  
+📂 **Repository:** [Fileupload-made-by-badboi-](https://github.com/MrTusarRX/Fileupload-made-by-badboi-)  
+📧 **Contact:** [khantusar717@gmail.com](mailto:khantusar717@gmail.com)
+
+---
+
 
 
