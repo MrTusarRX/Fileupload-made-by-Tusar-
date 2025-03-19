@@ -18,22 +18,18 @@ It automatically detects the base URL and works with any file type.
 ├── api/ # Contains the backend API files │ ├── upload.php # Handles file uploads │ ├── download.php # Handles file downloads ├── uploads/ # Uploaded files are stored here ├── index.php # Main frontend file ├── README.md # Project documentation
 
 
-
 ---
 
 ## 🏗️ Installation  
 ### 1. Clone the repository:  
 ```bash
 git clone https://github.com/MrTusarRX/secure-file-upload.git
-
-
----
-
-## 🏗️ Installation  
+```
 ### 1. Clone the repository:  
 ```bash
 git clone https://github.com/MrTusarRX/secure-file-upload.git
 cd secure-file-upload
+```
 SECRET_KEY="mysecretkey"
 
 ⚙️ Configuration
@@ -113,9 +109,9 @@ if ($http_code == 200 && $result !== false) {
     exit;  
 } else {  
     echo "❌ Failed to download file.";  
-}```
+}
 
-
+```
 ## 🧠 Notes  
 - ✅ **Make sure the `uploads/` folder has write permissions.**  
 - ✅ **Files are secured with an API key-based authentication.**  
