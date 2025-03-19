@@ -13,6 +13,25 @@ It automatically detects the base URL and works with any file type.
 ✅ Simple and clean interface  
 
 ---
+## 📥 Download API Example (`download-handle-api-example.php`)
+
+This is an example of a PHP file (`download-handle-api-example.php`) that handles file downloads through an API system with authentication.
+
+### 🔑 Authentication:
+- The request must include a valid `X-API-KEY` header that matches the predefined secret key.
+
+### 🚀 Usage:
+Send a `GET` request to the API endpoint with the following parameters:
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/download-handle-api-example.php?file_id={fileid}` | Download the file with the specified `file_id` |
+
+### 📋 Example cURL Request:
+```bash
+curl -X GET "https://yourdomain.com/download.php?file_id=67dae94b68b58-Nep-Esp-offset-dummper.zip" \
+-H "X-API-KEY: xtusar"
+
 
 ## 📂 Project Structure  
 ├── api/ # Contains the backend API files │ ├── upload.php # Handles file uploads │ ├── download.php # Handles file downloads ├── uploads/ # Uploaded files are stored here ├── index.php # Main frontend file ├── README.md # Project documentation
@@ -55,26 +74,7 @@ $downloadUrl = rtrim($baseUrl, '/') . "/api/download.php";
     Enter the file ID in the download form
     Hit "Download"
     The file will be downloaded using secure cURL
-
-## 📥 Download API Example (`download.php`)
-
-This is an example of a PHP file (`download.php`) that handles file downloads through an API system with authentication.
-
-### 🔑 Authentication:
-- The request must include a valid `X-API-KEY` header that matches the predefined secret key.
-
-### 🚀 Usage:
-Send a `GET` request to the API endpoint with the following parameters:
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/download-handle-api-example.php?file_id={fileid}` | Download the file with the specified `file_id` |
-
-### 📋 Example cURL Request:
-```bash
-curl -X GET "https://yourdomain.com/download.php?file_id=67dae94b68b58-Nep-Esp-offset-dummper.zip" \
--H "X-API-KEY: xtusar"
-
+    
 # 💻 Example Code
 
 ## 📤 Upload Example:
