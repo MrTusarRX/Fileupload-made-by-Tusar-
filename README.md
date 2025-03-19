@@ -31,7 +31,7 @@ Send a `GET` request to the API endpoint with the following parameters:
 ```bash
 curl -X GET "https://yourdomain.com/download.php?file_id=67dae94b68b58-Nep-Esp-offset-dummper.zip" \
 -H "X-API-KEY: xtusar"
-
+```
 
 ## 📂 Project Structure  
 ├── api/ # Contains the backend API files │ ├── upload.php # Handles file uploads │ ├── download.php # Handles file downloads ├── uploads/ # Uploaded files are stored here ├── index.php # Main frontend file ├── README.md # Project documentation
